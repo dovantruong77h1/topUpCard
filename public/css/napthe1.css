@@ -1,0 +1,30 @@
+.loai-the {
+	background: #DFDFDF;
+	filter: grayscale(100%);
+	padding: 10px;
+	border: 1px solid #818181;
+	max-width: 80px;
+	border-radius: 4px;
+	margin-right: 5px;
+	margin-bottom: 7px;
+}
+
+.loai-the:hover {
+	cursor: pointer;
+	background: #FFFFFF;
+	filter: none;
+}
+
+div {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.active {
+	background: #FFFFFF;
+	filter: none;
+}
+
+.thongbaoloi {
+	color:red;
+}

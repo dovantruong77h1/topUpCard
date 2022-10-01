@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+    <html lang="vi">
+    
+<!--  -->
+<!-- --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="author" content="Nạp thẻ Liên Quân">
+
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+
+    <title>Liên Quân Mobile - Trung tâm nạp thẻ Garena</title>
+    
+    <meta name="description" content="Trang nạp quân huy Liên Quân là đối tác chính thức của nhà phát hành Garena" />
+    <meta name="keywords" content="nạp Liên Quân, nạp thẻ Liên Quân, nạp quân huy Liên Quân, nạp game Liên Quân, nạp tiền vào Liên Quân, nạp quân huy Liên Quân miễn phí, nạp Liên Quân vn, nạp Liên Quân x5 quân huy, nạp quân huy Liên Quân giá rẻ, shop nạp quân huy Liên Quân, nạp quân huy Liên Quân x10, nạp quân huy Liên Quân 20k, nạp quân huy Liên Quân 10k, shop nạp quân huy Liên Quân uy tín, nạp quân huy Liên Quân giá rẻ 10k, nạp quân huy Liên Quân giá rẻ, nạp quân huy Liên Quân bằng thẻ viettel, nạp quân huy vào game Liên Quân.">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/napthe1.css">
+    <link href="css/style.css" rel="stylesheet">
+
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom1.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+<nav class="navbar navbar-default navbar-top">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+<span class="sr-only">Menu</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a href="/"><img class="navbar-brand" src="images/logo.png"  alt="Nạp thẻ Garena"></a>
+<br><br>
+</div>
+</div>
+</div>
+</div>
+</nav>
+<section>
+<div class="container">
+
+<div class="banner"><img src="https://cdn.vn.garenanow.com/web/napthevn/sp_pc_19052022.png" alt=""></div>
+<div class="main-section__title"><div class="main-section__title-txt main-section__title-channel"><img src="https://cdngarenanow-a.akamaihd.net/gop/app/0000/100/054/icon.png" style="width:25px;height:25px;"> &nbsp; Liên Quân Mobile</div></div>
+<p class="alert alert-info">Nhận ngay trang phục <b><font color="red">Tel'Annas Tân Niên Vệ Thần x1 Vĩnh Viễn</font></b> khi nạp thẻ <b>lần đầu</b> có mệnh giá từ <b>200.000</b>₫ trở lên.<br/>Nhân đôi giá trị thẻ nạp cho <strong>lần nạp đầu tiên</strong>.<br/><span style="font-style: italic; font-size: 13px; margin-top:15px;color:red;">(Chú ý: Mỗi IP chỉ được hưởng ưu đãi một lần. Hệ thống nhận thấy địa chỉ IP của bạn chưa từng nạp thẻ)</span></p>
+
+<p class="alert alert-info">Nhận ngay trang phục <b><font color="red">Tel'Annas Thần sứ F.E.E x1 Vĩnh Viễn</font></b> khi nạp thẻ <b>lần đầu</b> có mệnh giá từ <b>300.000</b>₫ trở lên.<br/>Nhân đôi giá trị thẻ nạp cho <strong>lần nạp đầu tiên</strong>.<br/><span style="font-style: italic; font-size: 13px; margin-top:15px;color:red;">(Chú ý: Mỗi IP chỉ được hưởng ưu đãi một lần. Hệ thống nhận thấy địa chỉ IP của bạn chưa từng nạp thẻ)</span></p>
+
+<div class="row">
+<div class="col-md-6">
+<div class="form-thanh-toan">
+
+
+<div>
+<div id="thongbao"></div>
+<label for="mathe">Tên đăng nhập Garena:</label>
+<input type="text" class="form-control" value="" name="account" placeholder="Nhập tên đăng nhập Garena">
+</div>
+
+
+<div>
+<label>Loại thẻ:</label>
+<br/>
+<input type="hidden" name="loaithe" id="telco" value="">
+<img class="loai-the" src="images/viettel.png" title="Nạp thẻ FIFA Online 4 bằng thẻ Viettel" alt="VIETTEL" value="VIETTEL">          
+<img class="loai-the" src="images/mobifone.png" title="Nạp thẻ FIFA Online 4 bằng thẻ Mobifone" alt="MOBIFONE" value="MOBIFONE">         
+<img class="loai-the" src="images/vinaphone.png" title="Nạp thẻ FIFA Online 4 bằng thẻ Vinaphone" alt="VINAPHONE" value="VINAPHONE">
+<img class="loai-the" src="images/vietnamobile.png" title="Nạp thẻ FIFA Online 4 bằng thẻ Garena" alt="VNMOBI" value="VNMOBI">
+<img class="loai-the" src="images/gate.png" title="Nạp thẻ FIFA Online 4 bằng thẻ GATE" alt="GATE" value="GATE">
+</div>
+
+<div>
+<label for="menhgia">Mệnh giá thẻ:</label> <span style="font-style: italic; font-size: 13px; margin-top:15px;color:red;">(Chú ý: nếu chọn sai mệnh giá sẽ bị mất thẻ)</span>
+<select name="menhgia" id="menhgia" class="form-control" required="required">
+<option value="0" selected="selected">- Chọn mệnh giá -</option>
+<option value="50000">50.000đ</option>
+<option value="100000">100.000đ</option>
+<option value="200000">200.000đ</option>
+<option value="300000">300.000đ</option>
+<option value="500000">500.000đ</option>
+<option value="1000000">1.000.000đ</option>
+</select>				
+</div>
+
+<div>
+<label for="mathe">Mã thẻ:</label>
+<input type="text" class="form-control" name="mathe" id="mathe" placeholder="Nhập mã dưới lớp tráng bạc ...">
+</div>
+
+<div>
+<label for="seri">Số seri:</label>
+<input type="text" class="form-control" name="seri" id="seri" placeholder="Nhập số seri in trên thẻ ...">
+</div>
+
+<p style="font-style: italic;font-size: 13px; margin-top:15px;">* Bằng cách nhấn "NẠP THẺ" đồng nghĩa bạn đã chấp nhận điều khoản của trang web.</p>
+
+<div class="error-msg thongbaoloi hide"></div>  <!--- Thông báo lỗi nhập thiếu -->
+
+
+<div style="padding-top: 8px;"><button id="napthe" name="napthe" class="btn btn-danger btn-block" data-loading-text="<i class='fa fa-spinner fa-spin'></i> ĐANG NẠP THẺ">NẠP THẺ</button></div>
+
+</div>
+</div>
+
+<div class="col-md-offset-1 col-md-5" >
+<h2 class="table-title" style="padding-top: 10px;"><b>Bảng giá quy đổi Quân huy</b></h2>
+<table class="table table-hover" style="-webkit-box-shadow: 0 0 20px 0 rgb(0 0 0 / 10%);box-shadow: 0 0 20px 0 rgb(0 0 0 / 10%);">
+<thead>
+<tr>
+<th class="text-danger" style="border: 1px solid #e1e1e1; text-align: center;">Mệnh giá</th>
+<th class="text-danger" style="border: 1px solid #e1e1e1;  text-align: center;">Quân huy</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border: 1px solid #e1e1e1; text-align: center;">50 000 VNĐ</td>
+<td style="border: 1px solid #e1e1e1;  text-align: center;">800<img src="images/quan-huy.png" style="width: 17px;height: 17px;" alt="nạp quân huy bằng thẻ cào"></td>
+</tr>
+<tr>
+<td style="border: 1px solid #e1e1e1; text-align: center;">100 000 VNĐ</td>
+<td style="border: 1px solid #e1e1e1;  text-align: center;">1 700<img src="images/quan-huy.png" style="width: 17px;height: 17px;" alt="nạp quân huy bằng thẻ cào"></td>
+</tr>
+<tr>
+<td style="border: 1px solid #e1e1e1; text-align: center;">200 000 VNĐ</td>
+<td style="border: 1px solid #e1e1e1;  text-align: center;">3 600 <img src="images/quan-huy.png" style="width: 17px;height: 17px;" alt="nạp quân huy bằng thẻ cào"></td>
+</tr>
+<tr>
+<td style="border: 1px solid #e1e1e1; text-align: center;">300 000 VNĐ</td>
+<td style="border: 1px solid #e1e1e1;  text-align: center;">5 800  <img src="images/quan-huy.png" style="width: 17px;height: 17px;" alt="nạp quân huy lậu"></td>
+</tr>
+<tr>
+<td style="border: 1px solid #e1e1e1; text-align: center;">500 000 VNĐ</td>
+<td style="border: 1px solid #e1e1e1;  text-align: center;">10 700 <img src="images/quan-huy.png" style="width: 17px;height: 17px;" alt="nạp quân huy liên quân"></td>
+</tr>
+<tr>
+<td style="border: 1px solid #e1e1e1; text-align: center;">1.000 000 VNĐ</td>
+<td style="border: 1px solid #e1e1e1;  text-align: center;">25 280 <img src="images/quan-huy.png" style="width: 17px;height: 17px;" alt="nạp thẻ liên quân"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<%- include('templates/footer') %>
